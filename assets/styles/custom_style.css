@@ -1,0 +1,211 @@
+.progress {
+  width: 80%;
+  height: 70px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+}
+.progress .circle,
+.progress .bar {
+  display: inline-block;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px !important;
+  border: 1px solid #d5d5da;
+}
+.progress .bar {
+  position: relative;
+  width: 80px;
+  height: 6px;
+  top: -4px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.progress .circle .label {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 53px;
+  border-radius: 60px !important;
+  color: #b5b5ba;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* Done / Active */
+.progress .bar.done,
+.progress .circle.done {
+  background: #81CE97;
+}
+.progress .bar.active {
+  background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+}
+.progress .circle.done .label {
+  color: #FFF;
+  background: #81CE97;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.progress .circle.done .title {
+  color: #444;
+}
+.progress .circle.active .label {
+  color: #FFF;
+  background: #0c95be;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.progress .circle.active .title {
+  color: #0c95be;
+}
+.form-title{
+  text-align: center;
+  color: red !important;
+}
+.modal-title{
+  text-align:center;
+  color: red;
+  font-weight: bold;
+}
+.form-horizontal .form-group{
+  margin-left: 0px;
+}
+.modal-footer .save{
+  margin-right: 150px;
+}
+.meal_image{
+  width: 250px;
+  height: 250px;
+  margin-bottom: 50px;
+}
+.mt-45{
+  margin-top: 45px;
+}
+.profile-content{
+  margin-top:-25px;
+}
+.tabbable-line{
+  visibility: hidden;
+  min-height: 0px !important;
+  margin-bottom: 0px;
+}
+.tabbable-line .nav{
+  min-height: 0px !important;
+  height: 0px;
+}
+th{
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+.rectangle{
+  border:solid 1px #0088cc;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+h4.middle{
+  text-align: center;
+  margin: 20px !important;
+}
+.mt-18{
+  margin-top: 18px;
+}
+.portlet>.portlet-title{
+  border-bottom: none;
+}
+.mr-20{
+  margin-right: 20px !important;
+}
+.underline{
+  border-bottom: 3px solid #00d4db !important;
+}
+input{
+  text-align: center;
+}
+div.margin-10{
+  margin: 10px 0px;
+}
+input.margin-top-10{
+  margin-top: 10px;
+}
+div.margin-bottom-0{
+  margin-bottom: 0px !important;
+}
+div.margin-top-30{
+  margin-top:30px;
+}
+.font-size-30{
+  font-size: 30px !important;
+}
+.font-size-40{
+  font-size: 40px !important;
+}
+.padding-bottom-0{
+  padding-bottom:0px !important;
+}
+.white{
+  color:#FFF !important;
+}
+.meal-image{
+  width: 120px;
+  height: 120px;
+}
+.margin-0{
+  margin: 0px !important;
+}
+.padding-left-0{
+  padding-left: 0px !important;
+}
+.padding-10{
+  padding: 10px !important;
+  min-height: 300px !important;
+}
+div.center{
+  text-align: center;
+}
+.top-40{
+  top: 40px !important;
+  background-color: #eff3f8;
+  text-align: center;
+  color : #22313F;
+  width: 225px;
+  padding-bottom: 20px !important;
+}
+.top-40:before{
+  position: absolute;
+  left: auto;
+  right: 14px;
+  top: -8px;
+  display: inline-block!important;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #eff3f8;
+  border-left: 8px solid transparent;
+  content: '';  
+}
+select.input-sm{
+  margin: 20px;
+}
+select {
+  text-align: center;
+  text-align-last: center;
+}
+option {
+  text-align: center;
+}
+div.meal-info{
+  text-align: center;
+}
+.desc{
+  word-break: break-all;
+}
+.detail-btn{
+  margin:50px 15px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
